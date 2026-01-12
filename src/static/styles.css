@@ -190,6 +190,24 @@ footer {
   font-size: 12px;
 }
 
+.participant-name {
+  flex: 1;
+}
+
+.participant-delete {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.participant-delete:hover {
+  background: rgba(198,40,40,0.08);
+}
+
 .no-participants {
   color: #666;
   font-style: italic;
